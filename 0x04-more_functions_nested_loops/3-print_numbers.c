@@ -2,6 +2,7 @@
 
 /**
  * print_numbers - prints 0123456789\n
+ * @c: chars to be printed
  * Return: void
  */
 
