@@ -1,20 +1,14 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * print_numbers - prints 0123456789\n
- * @c: chars to be printed
- * Return: void
- */
-
-void print_most_numbers(void)
+*print_numbers - print the numbers 0 to 9
+*
+*/
+void print_numbers(void)
 {
-	char c;
+	int a;
 
-	for (c = '0'; c <= '9'; c++)
-
-	{
-		_putchar(c);
-
-	}	_putchar ('\n');
-
+	for (a = '0'; a <= '9'; a++)
+		_putchar(a);
+	_putchar('\n');
 }
