@@ -4,7 +4,7 @@
  * @s: the string to convert
  * Return: the converted string.
  */
- int _atoi(char *s)
+int _atoi(char *s)
 {
 	short boolean;
 	int i, d, result;
